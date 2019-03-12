@@ -1,0 +1,466 @@
+﻿
+Stack: 
+[Open(../../../intrare.txt);ReadFile(var_c)]
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+Open(../../../intrare.txt)
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+var_f --> 0
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0))
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+[ReadFile(var_c);Print(var_c)]
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+ReadFile(var_c)
+Print(var_c)
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+Print(var_c)
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+60
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+60
+
+FileTable: 
+
+
+
+Stack: 
+[Open(../../../intrare.txt);ReadFile(var_c)]
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+Open(../../../intrare.txt)
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+var_f --> 0
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0))
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+[ReadFile(var_c);Print(var_c)]
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+ReadFile(var_c)
+Print(var_c)
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 50
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+Print(var_c)
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+Close(var_f)
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+60
+
+FileTable: 
+0 --> ../../../intrare.txt
+
+
+
+Stack: 
+
+Dict: 
+var_f --> 0
+var_c --> 60
+
+Output: 
+60
+
+FileTable: 
+
+
+
+Stack: 
+Open(../../../intrare.txt)
+[[ReadFile(p);Print(p)];[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+[[ReadFile(p);Print(p)];[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]]
+
+Dict: 
+a --> 1
+
+Output: 
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+[ReadFile(p);Print(p)]
+[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]
+
+Dict: 
+a --> 1
+
+Output: 
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+ReadFile(p)
+Print(p)
+[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]
+
+Dict: 
+a --> 1
+
+Output: 
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+Print(p)
+[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]
+
+Dict: 
+a --> 1
+p --> 50
+
+Output: 
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+[IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0));Close(a)]
+
+Dict: 
+a --> 1
+p --> 50
+
+Output: 
+50
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+IF(p) THEN([ReadFile(q);Print(q)])ELSE(Print( 0))
+Close(a)
+
+Dict: 
+a --> 1
+p --> 50
+
+Output: 
+50
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+[ReadFile(q);Print(q)]
+Close(a)
+
+Dict: 
+a --> 1
+p --> 50
+
+Output: 
+50
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+ReadFile(q)
+Print(q)
+Close(a)
+
+Dict: 
+a --> 1
+p --> 50
+
+Output: 
+50
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+Print(q)
+Close(a)
+
+Dict: 
+a --> 1
+p --> 50
+q --> 60
+
+Output: 
+50
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+Close(a)
+
+Dict: 
+a --> 1
+p --> 50
+q --> 60
+
+Output: 
+50
+60
+
+FileTable: 
+1 --> ../../../intrare.txt
+
+
+
+Stack: 
+
+Dict: 
+a --> 1
+p --> 50
+q --> 60
+
+Output: 
+50
+60
+
+FileTable: 
+
+

@@ -1,0 +1,75 @@
+
+Stack: 
+[Open(text.txt);ReadFile(var_c)]
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+Open(text.txt)
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+[Open(text.txt);ReadFile(var_c)]
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+Open(text.txt)
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+[Open(text1.txt);ReadFile(var_c)]
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
+
+Stack: 
+Open(text1.txt)
+ReadFile(var_c)
+[IF(var_c) THEN([ReadFile(var_c);Print(var_c)])ELSE(Print( 0));Close(var_f)]
+
+Dict: 
+
+Output: 
+
+FileTable: 
+
+
